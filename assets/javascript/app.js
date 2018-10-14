@@ -36,7 +36,7 @@ startBtnTimer();
 	});
 }
 $('#Done').on('click', function () {
-	
+	n=0;
 	createArrayOfUserAnswers();
 			compareArray();
 			showScoreboard();
